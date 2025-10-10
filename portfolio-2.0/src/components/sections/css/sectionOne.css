@@ -1,0 +1,45 @@
+.title-name {
+    font-size: 3.7rem;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translateY(+20%);
+    color: var(--title-color);
+    transition: all 0.5s;
+    font-family: "Newsreader", serif;
+    border-right: solid var(--title-color) 3.5px;
+    width: 13ch;
+    animation: binkMaker 0.6s infinite, typing 5s infinite steps(22);
+}
+
+@keyframes binkMaker {
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    10% {
+        width: 0;
+    }
+
+    40% {
+        width: 13ch;
+    }
+
+    60% {
+        width: 13ch;
+    }
+
+    90% {
+        width: 0;
+    }
+
+    100% {
+        width: 0;
+    }
+}

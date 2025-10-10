@@ -1,0 +1,15 @@
+.card-tech {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 30px;
+    transition: transform 0.8s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+    transform-origin: center;
+    margin: 20px;
+}
+
+/* rotação média e efeito sutil de elevação */
+.card-tech:hover {
+    transform: rotate(10deg);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
