@@ -78,3 +78,9 @@ export default defineConfig([
 ```
 npm install --save @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons
 ```
+
+## Instalar AOS
+
+```
+npm install --save aos@next
+```

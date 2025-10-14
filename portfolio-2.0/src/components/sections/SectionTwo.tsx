@@ -32,34 +32,34 @@ const SectionTwo = () => {
     }, []);
 
     return (
-        <div id="tech-stacks" className="h-[70dvh] w-full bg-[var(--bg-color)] flex justify-center items-center">
+        <section id="tech-stacks" className="h-[70dvh] w-full bg-[var(--bg-color)] flex justify-center items-center">
             <div className="flex flex-col justify-center items-center gap-4 w-[45dvw]">
                 <h1 className="text-[var(--title-color)] text-[65px] font-semibold">
                 Tech Stacks
                 </h1>
                 <div className="w-[40dvw] border border-black"></div>
                 <div className="flex justify-center items-center mt-4">
-                    <div className="card-tech">
+                    <div className="card-tech" data-aos="zoom-in">
                         <FontAwesomeIcon icon={faHtml5} size="5x" />
                     </div>
-                    <div className="card-tech">
+                    <div className="card-tech" data-aos="zoom-in">
                         <FontAwesomeIcon icon={faCss} size="5x" />
                     </div>
-                    <div className="card-tech">
+                    <div className="card-tech" data-aos="zoom-in">
                         <FontAwesomeIcon icon={faJs} size="5x" />
                     </div>
-                    <div className="card-tech">
+                    <div className="card-tech" data-aos="zoom-in">
                         <FontAwesomeIcon icon={faJs} size="5x" />
                     </div>
-                    <div className="card-tech">
+                    <div className="card-tech" data-aos="zoom-in">
                         <FontAwesomeIcon icon={faGit} size="5x" />
                     </div>
-                    <div className="card-tech">
+                    <div className="card-tech" data-aos="zoom-in">
                         <FontAwesomeIcon icon={faGithub} size="5x" />
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
