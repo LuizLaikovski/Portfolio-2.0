@@ -32,8 +32,13 @@ function App() {
       <div className="">
         <Header />
         <SectionOne />
-        <div className="bg-gradient-to-b from-[var(--bg-color)] to-[var(--text-color)] w-full">
-          <SectionTwo />
+        <SectionTwo />
+        <div 
+          className="w-full h-[100dvh]"
+          style={{
+            background: `linear-gradient(to bottom, var(--bg-color) 0%, var(--bg-color) 55%, var(--text-color))`
+          }}
+          >
           <SectionTree />
         </div>
       </div>
