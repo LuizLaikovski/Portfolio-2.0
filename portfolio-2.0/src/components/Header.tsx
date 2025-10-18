@@ -1,4 +1,4 @@
-import { faAddressBook, faFile, faFilePdf, faUser } from "@fortawesome/free-regular-svg-icons";
+import { faFile, faFilePdf, faUser } from "@fortawesome/free-regular-svg-icons";
 import { faMicrochip, faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
@@ -26,9 +26,8 @@ const Header = () => {
                 <ul className="flex text-[var(--bg-color)]">
                     <a href="#about"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faUser} />   About Me</li></a>
                     <a href="#tech-stacks"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faMicrochip} />   Tech Stack</li></a>
-                    <li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faUsers} />   Soft Skill's</li>
+                    <a href="#softSkills"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faUsers} />   Soft Skill's</li></a>
                     <li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faFile} />   Projects</li>
-                    <li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faAddressBook} />   Contact</li>
                     <li className="header-skills p-3 text-xl cursor-pointer"><a href="CV - Luiz Laikovski - 2025.pdf" download="CV - Luiz Laikovski - 2025.pdf"><FontAwesomeIcon icon={faFilePdf} />    CV</a></li>
                 </ul>
 

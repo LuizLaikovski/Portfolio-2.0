@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import SectionFour from "./components/sections/SectionFour";
 import SectionOne from "./components/sections/SectionOne"
 import SectionTree from "./components/sections/SectionTree";
 import SectionTwo from "./components/sections/SectionTwo"
@@ -34,12 +35,15 @@ function App() {
         <SectionOne />
         <SectionTwo />
         <div 
-          className="w-full h-[100dvh]"
+          className="w-full h-[80dvh]"
           style={{
             background: `linear-gradient(to bottom, var(--bg-color) 0%, var(--bg-color) 55%, var(--text-color))`
           }}
           >
           <SectionTree />
+        </div>
+        <div className="bg-[var(--text-color)] h-auto">
+          <SectionFour />
         </div>
       </div>
     </>
