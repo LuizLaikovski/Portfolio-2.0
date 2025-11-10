@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 
 export default function SnakeGame() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -192,15 +192,6 @@ export default function SnakeGame() {
                     height={canvasSize}
                     className="rounded-xl bg-[#ebe4cf] shadow-[0_0_12px_rgba(0,0,0,0.2)]"
                 />
-        
-                {status === "paused" && (
-                    <div className="absolute inset-0 bg-[rgba(0,0,0,0.5)] text-white flex flex-col items-center justify-center rounded-xl font-[Raleway] text-lg">
-                        <p>⏸️ Jogo Pausado</p>
-                        <p>
-                            Pressione <b>Espaço</b> ou <b>Esc</b> para continuar
-                        </p>
-                    </div>
-                )}
         
                 {status === "dead" && (
                     <div className="absolute inset-0 bg-[rgba(0,0,0,0.6)] text-white flex flex-col items-center justify-center rounded-xl font-[Merienda] text-xl">
