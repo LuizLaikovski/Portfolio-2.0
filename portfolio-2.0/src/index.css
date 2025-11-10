@@ -10,9 +10,9 @@
     --accent-color: #b8ab84;
 }
 
-/* * {
-    border: red 2px solid   ;
-} */
+html {
+    scroll-behavior: smooth;
+}
 
 .testB {
     border: red 2px solid   ;

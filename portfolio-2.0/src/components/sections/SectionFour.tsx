@@ -42,7 +42,7 @@ const SectionFour = () => {
     const prevProject = () => setCurrent((prev) => (prev - 1 + projects.length) % projects.length);
 
     return (
-        <section className="min-h-[100dvh] flex flex-col justify-center items-center px-4 py-12">
+        <section id="projects" className="min-h-[100dvh] flex flex-col justify-center items-center px-4 py-12">
             <h1
                 className="text-[var(--bg-color)] text-5xl md:text-6xl lg:text-7xl font-bold mt-10 text-center"
                 data-aos="fade-up"

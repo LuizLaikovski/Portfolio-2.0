@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import SnakeGame from "./components/SnakeGame";
 import SectionFour from "./components/sections/SectionFour";
 import SectionOne from "./components/sections/SectionOne"
 import SectionTree from "./components/sections/SectionTree";
@@ -28,6 +29,7 @@ function App() {
         <div className="bg-[var(--secondary-color)] h-auto">
           <SectionFour />
         </div>
+        <SnakeGame />
       </div>
     </>
   )
