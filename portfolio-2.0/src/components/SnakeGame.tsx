@@ -181,7 +181,7 @@ export default function SnakeGame() {
                 ☕ Snake do Café ☕
             </h2>
         
-            <p className="text-[var(--bg-color)] font-[Raleway] text-lg">
+            <p className="text-[var(--bg-color)]" style={{color: "#ebe4cf", margin: "15px 0 15px 0"}}>
                 Pontuação: {score}
             </p>
         
@@ -190,7 +190,7 @@ export default function SnakeGame() {
                     ref={canvasRef}
                     width={canvasSize}
                     height={canvasSize}
-                    className="rounded-xl bg-[#ebe4cf] shadow-[0_0_12px_rgba(0,0,0,0.2)]"
+                    className="rounded-2xl bg-[#ebe4cf] shadow-2xl"
                 />
         
                 {status === "dead" && (
