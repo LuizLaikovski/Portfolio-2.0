@@ -176,15 +176,7 @@ export default function SnakeGame() {
   }, [running]);
 
     return (
-        <div className="max-sm:hidden h-screen overflow-hidden bg-[var(--secondary-color)] flex flex-col justify-center items-center">
-            <h2 className="text-[var(--bg-color)] font-[Merienda] text-4xl">
-                ☕ Snake do Café ☕
-            </h2>
-        
-            <p className="text-[var(--bg-color)]" style={{color: "#ebe4cf", margin: "15px 0 15px 0"}}>
-                Pontuação: {score}
-            </p>
-        
+        <div className="max-sm:hidden h-screen overflow-hidden bg-[var(--secondary-color)] flex justify-center items-center">
             <div className="relative">
                 <canvas
                     ref={canvasRef}
@@ -202,6 +194,25 @@ export default function SnakeGame() {
                     </div>
                 )}
             </div>
+
+            <div className="text-center w-[40dvw]" style={{margin: "0 0 0 50px"}}>
+              <h2 className="text-[var(--bg-color)] font-[Merienda] text-4xl">
+                  Snake do Café ☕
+              </h2>
+          
+              <p className="text-[var(--bg-color)] text-2xl" style={{color: "#ebe4cf", margin: "15px 0 15px 0"}}>
+                  <strong>Pontuação: </strong>{score}
+              </p>
+
+              <h1 className="text-2xl" style={{color: "#ebe4cf", margin: "0 0 15px 0"}}>A Jornada do Serpentini</h1>
+
+              <p style={{color: "#ebe4cf"}}>
+              Em uma manhã preguiçosa, o pequeno <strong>Serpentini</strong>, uma cobra marrom de alma sonolenta, acordou sem energia alguma. Ele vivia em um mundo bege e tranquilo, onde o sol nascia devagar… mas sem café, nada fazia sentido. Um aroma distante de grãos torrados o chamou — era o <strong>Café Sagrado das Montanhas de Java</strong>, capaz de despertar até as pedras do deserto.
+              Guiado apenas pelo cheiro irresistível, Serpentini deslizou por trilhas, evitou paredes traiçoeiras e seguiu cada xícara deixada como pista. Cada gole o deixava mais rápido, mais esperto — mas também mais faminto. Dizem que até hoje ele persegue o aroma do café perfeito, em busca da energia eterna para nunca mais adormecer.
+              strong E assim nasceu… o Snake do Café. ☕
+              </p>
+            </div>
+        
         </div>
     );
 }
