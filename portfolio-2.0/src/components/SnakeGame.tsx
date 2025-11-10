@@ -9,7 +9,7 @@ export default function SnakeGame() {
   const gridSize = 20;
   const cellSize = 25;
   const canvasSize = gridSize * cellSize;
-  const moveSpeed = 4; // velocidade suave
+  const moveSpeed = 6; // velocidade suave
 
   const stateRef = useRef({
     snake: [
