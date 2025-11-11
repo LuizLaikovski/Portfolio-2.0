@@ -1,5 +1,5 @@
 import { faFile, faFilePdf, faUser } from "@fortawesome/free-regular-svg-icons";
-import { faBars, faMicrochip, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faMicrochip, faPhone, faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import "./css/header.css"
@@ -28,6 +28,7 @@ const Header = () => {
                     <a href="#tech-stacks"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faMicrochip} />   Tecnologias</li></a>
                     <a href="#softSkills"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faUsers} />   Soft Skill's</li></a>
                     <a href="#projects"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faFile} />   Projetos</li></a>
+                    <a href="#contact"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faPhone} />   Contato</li></a>
                     <li className="header-skills p-3 text-xl cursor-pointer"><a href="CV - Luiz Laikovski - 2025.pdf" download="CV - Luiz Laikovski - 2025.pdf"><FontAwesomeIcon icon={faFilePdf} />    CV</a></li>
                 </ul>
 
