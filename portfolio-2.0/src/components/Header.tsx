@@ -22,8 +22,8 @@ const Header = () => {
             <div>
                 <a href="https://github.com/luizlaikovski" className="text-2xl text-[var(--bg-color)] max-sm:text-[20px]"><h1>Luiz Laikovski | Dev</h1></a>
             </div>
-            <div className="ml-[30dvw]">
-                <ul className="flex text-[var(--bg-color)] max-sm:hidden">
+            <div className="ml-[30dvw] min-[1280px]:ml-[16dvw]">
+                <ul className="flex text-[var(--bg-color)] max-[1280px]:hidden">
                     <a href="#about"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faUser} />   Sobre Mim</li></a>
                     <a href="#tech-stacks"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faMicrochip} />   Tecnologias</li></a>
                     <a href="#softSkills"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faUsers} />   Soft Skill's</li></a>
@@ -32,7 +32,7 @@ const Header = () => {
                     <li className="header-skills p-3 text-xl cursor-pointer"><a href="CV - Luiz Laikovski - 2025.pdf" download="CV - Luiz Laikovski - 2025.pdf"><FontAwesomeIcon icon={faFilePdf} />    CV</a></li>
                 </ul>
 
-                <button onClick={toggleModal} className="button-modal text-[var(--bg-color)] min-sm:hidden"><FontAwesomeIcon size="2x" icon={faBars} /></button>
+                <button onClick={toggleModal} className="button-modal text-[var(--bg-color)] min-[1280px]:hidden"><FontAwesomeIcon size="2x" icon={faBars} /></button>
 
                 {modal && (
                     <div

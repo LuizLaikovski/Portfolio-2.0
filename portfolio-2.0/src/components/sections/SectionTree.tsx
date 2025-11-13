@@ -24,7 +24,7 @@ const SectionTree = () => {
                 <div className="flex flex-wrap justify-center gap-6 max-w-[800px] max-sm:grid max-sm:grid-cols-2">
                     {skills.map((skill, index) => (
                         <div key={index} className="cardSoft">
-                        <h1 className="max-sm:text-[18px]">{skill}</h1>
+                            <h1 className="max-sm:text-[18px]">{skill}</h1>
                         </div>
                     ))}
                 </div>

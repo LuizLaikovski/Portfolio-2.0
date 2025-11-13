@@ -41,7 +41,8 @@ const SectionTwo = () => {
                     Tech Stacks
                 </h1>
                 <div className="w-[40dvw] border border-black max-sm:w-[80vw]"></div>
-                <div className="flex justify-center items-center mt-4 max-sm:grid max-sm:grid-cols-2">
+                <div className="flex justify-center items-center mt-4 
+                min-[1280px]:grid max-sm:grid-cols-2 min-[1280px]:grid-cols-4 min-[1280px]:w-[80dvw]">
                     <div className="card-tech flex justify-center items-center" data-aos="zoom-in-up" data-aos-duration="200">
                         <FontAwesomeIcon icon={faReact} size="5x" />
                     </div>

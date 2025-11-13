@@ -10,7 +10,6 @@
   transition: 0.3s ease;
   margin: 10px;
   color: var(--text-color);
-
   /* animação contínua de subir/descer */
   animation: float 1s ease-in-out infinite alternate;
 }
