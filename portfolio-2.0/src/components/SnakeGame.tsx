@@ -3,7 +3,6 @@ import { useRef, useEffect, useState } from "react";
 export default function SnakeGame() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [running, setRunning] = useState(true);
-  const [score, setScore] = useState(0);
   const [status, setStatus] = useState<"playing" | "paused" | "dead">("playing");
 
   const gridSize = 20;
@@ -73,7 +72,6 @@ export default function SnakeGame() {
       moveTimer: 0,
       lastMove: 0,
     };
-    setScore(0);
     setRunning(true);
     setStatus("playing");
   }
@@ -139,7 +137,6 @@ export default function SnakeGame() {
         if (head.x === s.coffee.x && head.y === s.coffee.y) {
           eatSound.play();
           s.coffee = randomCoffeePos(s.snake);
-          setScore((sc) => sc + 1);
         } else s.snake.pop();
       }
       lastTime = time;
