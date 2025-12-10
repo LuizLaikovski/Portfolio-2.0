@@ -47,20 +47,17 @@ const SectionFour = () => {
                 className="text-[var(--bg-color)] text-5xl md:text-6xl lg:text-7xl font-bold mt-10 text-center"
                 data-aos="fade-up"
             >
-                Projects
+                Projetos
             </h1>
             <div className="w-[60dvw] max-w-[600px] bg-[var(--bg-color)] h-0.5 my-5" data-aos="flip-up"></div>
 
             <div className="relative w-full max-w-[1100px] overflow-hidden">
-                {/* Botão esquerda */}
                 <button
                     onClick={prevProject}
                     className="absolute left-3 top-1/2 -translate-y-1/2 bg-[var(--bg-color)] text-[var(--text-color)] p-3 rounded-full hover:scale-110 transition z-10 max-sm:p-2"
                 >
                     <FaArrowLeft size={22} />
                 </button>
-
-                {/* Slides */}
                 <div
                     className="flex transition-transform duration-700 ease-in-out"
                     style={{ transform: `translateX(-${current * 100}%)` }}
@@ -77,7 +74,6 @@ const SectionFour = () => {
                                 className="flex flex-col lg:flex-row justify-center items-center bg-[#b8a878] rounded-3xl p-6 lg:p-10 w-[90%] md:w-[80%] lg:w-[70dvw] text-center shadow-lg"
                                 data-aos="zoom-out-up"
                             >
-                                {/* Texto */}
                                 <div className="flex flex-col justify-center items-center w-full lg:w-[50%] bg-[var(--bg-color)] border-2 border-[var(--title-color)] rounded-3xl p-6 mb-6 lg:mb-0">
                                     <h2 className="text-3xl md:text-4xl mb-3 font-semibold">{project.title}</h2>
                                     <p className="text-base md:text-lg text-justify mb-5 leading-relaxed">
@@ -86,10 +82,8 @@ const SectionFour = () => {
                                     <div className="flex gap-3 justify-center flex-wrap">{project.icons}</div>
                                 </div>
 
-                                {/* Linha divisória */}
                                 <div className="hidden lg:block h-[30dvh] bg-[var(--bg-color)] w-0.5 mx-[3dvw]"></div>
 
-                                {/* Imagem */}
                                 <div className="flex justify-center w-full lg:w-[40%]">
                                     <img
                                         src={project.img}
@@ -102,7 +96,6 @@ const SectionFour = () => {
                     ))}
                 </div>
 
-                {/* Botão direita */}
                 <button
                     onClick={nextProject}
                     className="absolute right-3 top-1/2 -translate-y-1/2 bg-[var(--bg-color)] text-[var(--text-color)] p-3 rounded-full hover:scale-110 transition z-10 max-sm:p-2"
@@ -111,7 +104,6 @@ const SectionFour = () => {
                 </button>
             </div>
 
-            {/* Indicadores */}
             <div className="flex gap-2 mt-6">
                 {projects.map((_, i) => (
                     <div
