@@ -29,7 +29,7 @@ const Header = () => {
                     <a href="#softSkills"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faUsers} />   Soft Skill's</li></a>
                     <a href="#projects"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faFile} />   Projetos</li></a>
                     <a href="#contact"><li className="header-skills p-3 text-xl cursor-pointer"><FontAwesomeIcon icon={faPhone} />   Contato</li></a>
-                    <li className="header-skills p-3 text-xl cursor-pointer"><a href="CV - Luiz Laikovski - 2025.pdf" download="CV - Luiz Laikovski - 2025.pdf"><FontAwesomeIcon icon={faFilePdf} />    CV</a></li>
+                    <li className="header-skills p-3 text-xl cursor-pointer"><a href="CV - Luiz Laikovski - 2026.pdf" download="CV - Luiz Laikovski - 2026.pdf"><FontAwesomeIcon icon={faFilePdf} />    CV</a></li>
                 </ul>
 
                 <button onClick={toggleModal} className="button-modal text-[var(--bg-color)] min-[1280px]:hidden"><FontAwesomeIcon size="2x" icon={faBars} /></button>
