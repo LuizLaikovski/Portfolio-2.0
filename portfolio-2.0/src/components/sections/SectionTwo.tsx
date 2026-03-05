@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { faGit, faGithub, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faGit, faGithub, faJs, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./css/sectionTwo.css";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -70,6 +70,10 @@ const SectionTwo = () => {
                     <div className="card-tech flex justify-center items-center" data-aos="zoom-in-up"
                         data-aos-duration="1400">
                         <FontAwesomeIcon icon={faGithub} size="5x" />
+                    </div>
+                    <div className="card-tech flex justify-center items-center" data-aos="zoom-in-up"
+                        data-aos-duration="1600">
+                        <FontAwesomeIcon icon={faPython} size="5x" />
                     </div>
                 </div>
             </div>
