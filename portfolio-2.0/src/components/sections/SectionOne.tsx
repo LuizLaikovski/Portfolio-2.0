@@ -20,7 +20,7 @@ const SectionOne = () => {
                         área de tecnologia.</p>
                 </div>
                 <div className="w-[36dvw] max-sm:w-[40dvh] flex justify-center items-center flex-col max-sm:mt-10">
-                    <img data-aos="fade-left" data-aos-duration="800" src="./eu.jpg"
+                    <img data-aos="fade-left" data-aos-duration="800" src="./euu.jpeg"
                         className="border-4 border-[var(--primary-color)] rounded-[50%] h-[60dvh] hover:scale-105
                         transform duration-300 max-sm:h-[40dvh] max-sm:w-[40dvh]" alt="" />
                 </div>
