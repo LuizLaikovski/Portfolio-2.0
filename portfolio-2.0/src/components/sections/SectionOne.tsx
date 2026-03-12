@@ -13,11 +13,7 @@ const SectionOne = () => {
                     <p
                         className="text-[17px] max-sm:text-[20px]"
                         data-aos="fade-right"
-                        data-aos-duration="1500">Tenho 17 anos e estou no terceiro ano do ensino médio.
-                        Sou apaixonado por tecnologia e aprendi, por conta própria, a programar em HTML, CSS, JavaScript,
-                        TypeScript, Python, Java e MySQL. Gosto de criar projetos e resolver desafios, sempre buscando
-                        aprender mais. Meu objetivo é me tornar um desenvolvedor de destaque e construir uma carreira na
-                        área de tecnologia.</p>
+                        data-aos-duration="1500">Sou estudante de Engenharia de Software, com foco no desenvolvimento de soluções web modernas e bem estruturadas. Tenho experiência na construção de aplicações utilizando JavaScript, Node.js e Python, trabalhando desde a interface até o processamento no back-end, incluindo integração entre serviços e segurança de dados. Já desenvolvi projetos que envolvem comunicação entre front-end e múltiplos serviços, além de manipulação e persistência de dados em bancos como PostgreSQL e MongoDB. Estou sempre buscando evoluir minhas habilidades e criar sistemas eficientes, escaláveis e bem organizados.</p>
                 </div>
                 <div className="w-[36dvw] max-sm:w-[40dvh] flex justify-center items-center flex-col max-sm:mt-10">
                     <img data-aos="fade-left" data-aos-duration="800" src="./euu.jpeg"
